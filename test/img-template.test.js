@@ -8,13 +8,14 @@ test('image template', (assert) => {
     // Arrange
     const image = {
         title: 'Title',
-        url: './assets/waterbottle-one.png'
+        url: './assets/waterbottle-one.png',
+        description: 'A unicorn and a narwhal nuzzling their horns'
     };
 
     const expected = /*html*/`
         <li>
             <h2 class="title">Title</h2>
-            <img class="bottle-image" src="./assets/waterbottle-one.png" alt="waterbottle one">
+            <img class="bottle-image" src="./assets/waterbottle-one.png" alt="A unicorn and a narwhal nuzzling their horns">
         </li>
     `;
 
