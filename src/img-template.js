@@ -1,6 +1,4 @@
-function imgTemplate(image) {
-    console.log(image, 'yeh');
-    
+function imgTemplate(image) {    
     return /*html*/ `
         <li>
             <h2 class="title">${image.title}</h2>
