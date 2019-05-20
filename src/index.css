@@ -1,3 +1,23 @@
 h1 {
     color: red;
 }
+
+#bottle-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+#bottle-list li {
+    list-style: none;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 30px;
+}
+
+.bottle-image {
+    width: 40px;   
+    height: 60px; 
+}
