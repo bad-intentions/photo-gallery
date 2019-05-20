@@ -1,5 +1,14 @@
+body {
+    background-color: rgb(244, 200, 244);
+}
+
 h1 {
-    color: red;
+    color: rgb(34, 180, 175);
+}
+
+.title {
+    text-transform: uppercase;
+    color: green;
 }
 
 #bottle-list {
@@ -13,8 +22,12 @@ h1 {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 40px;
-    margin: 30px;
+    margin: 5px;
+    background-color: white;
 }
 
 .bottle-image {
